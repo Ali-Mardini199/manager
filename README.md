@@ -21,15 +21,21 @@
 
 
 ##كيفية تشغيل المشروع 
-يعمل المشروع عن طريق مكتبة الspring boot وادواتها المقدمة من لغة java عن طريق الامر  Run باي بيئة تطوير للغة الjav
+يعمل المشروع عن طريق مكتبة الspring boot وادواتها المقدمة من لغة java عن طريق الامر  Run باي بيئة تطوير للغة الjava
 
 
 
 ##ال APIs الموجودة هي :
 user apis
+
 servise apis
+
 appointment apis
+
 admin apis 
+
 login and sign up apis 
+
 role apis
+
 staff api
