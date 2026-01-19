@@ -22,6 +22,7 @@ public class UserService {
         Long roleId = user.getRole().getId();
         Role role = roleRepository.findById(roleId).orElse(null);
         user.setRole(role);
+        user.setPassword(passwordEncoder.encode(user.getPassword()));
         return userRepository.save(user);
     }
 
